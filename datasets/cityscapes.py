@@ -110,7 +110,7 @@ class Dataset(base.ImageDataset):
     def num_test_examples(): return 500
 
     @staticmethod
-    def num_classes(): return 1000
+    def num_classes(): return 19
 
     @staticmethod
     def get_train_set(use_augmentation):
